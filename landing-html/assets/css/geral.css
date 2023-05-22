@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #0c0a0a;
+  --secondary-color: #2e2e2e;
+  --third-color: #c2c2c2;
+  --fourth-color: #f2f2f2;
+  --fifth-color: #20456C;
+  --exhale-color: #83E179;
+  --inspire-color: #84B1F8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  color: var(--third-color);
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2rem;
+}
+
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.main-container {
+  max-width: 70rem;
+  margin: 5rem auto;
+  padding: 2rem;
+  height: 100vh;
+
+}
+
+.insider{
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  border-radius: 1.5rem;
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+input{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: var(--fourth-color);
+  color: var(--fifth-color);
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.diplaySet{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  color: var(--fifth-color);
+  padding-bottom: 1rem;
+}
+.display{
+  margin-top: 1rem;
+  font-weight: 800;
+  color: var(--fifth-color);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: var(--fourth-color);
+  border-radius: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bigDisplay{
+  width: 100%;
+  display: grid;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: 2rem;
+  background-color: var(--fourth-color);
+  border-radius: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.Expira{
+  color: var(--exhale-color);
+}
+
+.Inspira{
+  color: var(--inspire-color);
+}
+
+button{
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: var(--fifth-color);
+  color: var(--fourth-color);
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  cursor: pointer;
+}
+.logo{
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  padding-bottom: 1rem;
+
+}
+
+img {
+  width: 70px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.logo .title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--third-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#instructionsDisplayLabel{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--third-color);
+  padding-bottom: .5rem;
+}
+
+#appVersionDisplay{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--third-color);
+  background-color: var(--secondary-color);
+  border-radius: 1.5rem;
+  border: 1px solid var(--primary-color);
+  padding: .5rem;
+}
